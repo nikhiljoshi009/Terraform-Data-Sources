@@ -1,8 +1,8 @@
 # Terraform-Data-Sources
-Data Source helps you to fetch required info from your resources and print the output to terraform terminal.
-Below example shows that public ip is printed in outputs.
-For example - 
-output "fetched_info_from_aws" {
+1. Data Source helps you to fetch required info from your resources and print the output to terraform terminal.
+2. Below example shows that public ip is printed in outputs.
+3. For example - 
+4. output "fetched_info_from_aws" {
 
   value = data.aws_instance.Myawsinstance.public_ip
 
